@@ -1,17 +1,7 @@
 import { VFC } from 'react';
 
 const App: VFC = () => (
-  <div
-    style={{
-      backgroundColor: '#282c34',
-      color: 'white',
-      minHeight: '100vh',
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-      fontSize: 'calc(10px + 2vmin)',
-    }}
-  >
+  <div className='App'>
     <p>Hello React</p>
   </div>
 );
